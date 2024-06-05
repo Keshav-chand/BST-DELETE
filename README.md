@@ -1,18 +1,30 @@
-## Getting Started
+# BST Deletion Program
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java program implements a Binary Search Tree (BST) with functionalities to insert nodes, delete nodes, search for nodes, and perform in-order traversal. 
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+# Features
+**Insert Nodes**: Add new nodes to the BST while maintaining the BST properties.
+- **Delete Nodes**: Remove nodes from the BST, handling different cases (no children, one child, two children).
+- **Search Nodes**: Check if a specific value exists in the BST.
+- **In-order Traversal**: Traverse the BST and print nodes in ascending order.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Program Workflow
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The program starts by inserting a predefined array of integers into the BST.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+It then performs an in-order traversal to display the initial state of the BST.
 
-## Dependency Management
+The user is prompted to enter values to delete from the BST.
+After each deletion, the BST is displayed again using in-order traversal.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The program continues to prompt for deletion until the user decides to stop.
+
+# Running the code
+
+Clone the Repository:git clone git clone https://github.com/Keshav-chand/BST-DELETE.git
+cd BST-DELETE
+
+javac BST DELETE.java
+
+java BST DELETE
